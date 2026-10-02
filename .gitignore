@@ -1,0 +1,35 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- 虚拟环境 ----
+venv/
+.venv/
+env/
+ENV/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- IDE / 编辑器 / 本地工具配置 ----
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ---- 日志与临时文件 ----
+*.log
+_test_out.txt
+
+# ---- 中间缓存特征（体积 ~347MB，可由 process_ipix.py 从 .cdf 重新生成）----
+# 克隆后请先运行: python process_ipix.py
+features/*.npy
